@@ -1,0 +1,30 @@
+.main{
+    background-color: rgb(218, 215, 215);
+    border: 1px solid;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 5%;
+}
+.main-txt{
+    text-align: center;
+}
+.left{
+    position: relative;
+    left: 15%;
+}
+.pad{
+    position: relative;
+    left: 25%;
+}
+.fill{
+    display: block;
+    margin: auto;
+}
+.sp{
+    position: relative;
+    width: 14%;
+    left: 43%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

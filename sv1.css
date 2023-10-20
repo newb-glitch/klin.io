@@ -1,0 +1,36 @@
+h2{
+ color:blue;   
+}
+.main{
+    background-color: rgb(218, 215, 215);
+    border: 1px solid;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    right: 5%;
+}
+.main-txt{
+    text-align: center;
+}
+.con1{
+    position:relative;
+    left: 20%;
+}
+.left{   
+    position: relative;
+    left: 25%;
+}
+.log-txt{
+    position: relative;
+    left: 20%;
+}
+.fill{
+    display: block;
+    margin: auto;
+}
+.sp{
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    left: 45%;
+}

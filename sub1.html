@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sub1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <form action="su.php" method="POST">
+            <h3 class="main-txt">Registration</h3>
+            <p class="left"><strong>Sign up as:</strong></p>
+            <input type="radio" class="left" name="usr" value="client">
+            <label for="client" class="left">client</label>
+            <input type="radio" class="pad" name="usr" value="partner">
+            <label for="partner" class="pad">partner</label>
+        <div>
+            <h3 class="pad">Name: </h3>
+        <input type="text" placeholder="First name" class="fill" name="fname">
+        <input type="text" placeholder="Last name" class="fill" name="lname">
+        </div>
+        <h3 class="pad">Gender:</h3>
+        <input type="text" placeholder="Male, Female, etc..." class="fill" name="gender">
+        <h3 class="pad">Contact #::</h3>
+        <input type="text" placeholder="09#########" class="fill" name="contact">
+        <h3 class="pad">Email: </h3>
+        <input type="text" placeholder="Email address" class="fill" name="email">
+        <h3 class="pad">Password: </h3>
+        <input type="password" placeholder="Password" class="fill" name="password">
+        <input type="submit" class="sp">
+        <p class="main-txt">Already have an account? 
+            <a href="sv1.html">Sign-in</a></p>
+        </form>
+    </div>
+</body>
+</html>
